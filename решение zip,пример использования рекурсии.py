@@ -160,8 +160,11 @@
 # a = decimal.Decimal(10000000000000000000000000000)
 # print(sys.getsizeof(a),sys.getsizeof(100_000_00), sys.getsizeof(0,9999999999999999999999999999))
 
-list1 = ['это', 'ваш', 'список', 'с', 'элементами' ]
-print(*list1, sep='\n')
+# list1 = ['это', 'ваш', 'список', 'с', 'элементами' ]
+# print(*list1, sep='\n')
+# print(float(True))
+#
+
 
 
 
