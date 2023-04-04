@@ -21,19 +21,19 @@
 # print(a)as
 # print(' '.join((input().split())))
 
-
-a1,a2,a3,a4,a5=[1499, 500, 300], [500],[200, 500, 1499], [1499], [300, 345, 541]
-for i in range(len(a1)):
-    a1[i]=float(a1[i])
-
-for i in range(len(a2)):
-    a2[i]=float(a2[i])
-for i in range(len(a3)):
-    a3[i]=float(a3[i])
-for i in range(len(a4)):
-    a4[i]=float(a4[i])
-for i in range(len(a5)):
-    a5[i]=float(a5[i])
-print(a1,a2,a3,a4,a5)
-print(sum(a1)*0.83*0.1, sum(a2)*0.83*0.05,sum(a3)*0.83*0.04,sum(a4)*0.83*0.03,sum(a5)*0.83*0.02)
-print(0.83*sum(a1)*0.1+0.83*sum(a2)*0.05+0.83*sum(a2)*0.04+0.83*sum(a2)*0.03+0.83*sum(a2)*0.02)
+#
+# a1,a2,a3,a4,a5=[1499, 500, 300], [500],[200, 500, 1499], [1499], [300, 345, 541]
+# for i in range(len(a1)):
+#     a1[i]=float(a1[i])
+#
+# for i in range(len(a2)):
+#     a2[i]=float(a2[i])
+# for i in range(len(a3)):
+#     a3[i]=float(a3[i])
+# for i in range(len(a4)):
+#     a4[i]=float(a4[i])
+# for i in range(len(a5)):
+#     a5[i]=float(a5[i])
+# print(a1,a2,a3,a4,a5)
+# print(sum(a1)*0.83*0.1, sum(a2)*0.83*0.05,sum(a3)*0.83*0.04,sum(a4)*0.83*0.03,sum(a5)*0.83*0.02)
+# print(0.83*sum(a1)*0.1+0.83*sum(a2)*0.05+0.83*sum(a2)*0.04+0.83*sum(a2)*0.03+0.83*sum(a2)*0.02)
