@@ -37,3 +37,17 @@
 # print(a1,a2,a3,a4,a5)
 # print(sum(a1)*0.83*0.1, sum(a2)*0.83*0.05,sum(a3)*0.83*0.04,sum(a4)*0.83*0.03,sum(a5)*0.83*0.02)
 # print(0.83*sum(a1)*0.1+0.83*sum(a2)*0.05+0.83*sum(a2)*0.04+0.83*sum(a2)*0.03+0.83*sum(a2)*0.02)
+
+# venv\Scripts\activate.bat - запуск виртуалки
+
+
+
+
+
+a = list(map(str, (range(10))))
+print(a)
+b = eval('+'.join(a))
+print(b)
+c = 100
+d = 'print(b+c)'
+exec(d)

@@ -10,8 +10,8 @@ import csv
 
 service = Service(executable_path='/usr/lib/chromium-browser/chromedriver')
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--no-sandbox")
+# chrome_options.add_argument("--headless")
+# chrome_options.add_argument("--no-sandbox")
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 URL = f'https://www.nbcomputers.ru/catalog/noutbuki/?page=1'
@@ -69,8 +69,8 @@ print(len(res_name_price_id))
 
 driver.quit()
 
-with open('bs4_selen.css', 'w', encoding='utf8', newline='') as file:
-    writer = csv.DictWriter(file, fieldnames=res_name_price_id[0])
-    writer.writeheader()
-    for row in res_name_price_id:
-        writer.writerow(row)
+# with open('bs4_selen.css', 'w', encoding='utf8', newline='') as file:
+#     writer = csv.DictWriter(file, fieldnames=res_name_price_id[0])
+#     writer.writeheader()
+#     for row in res_name_price_id:
+#         writer.writerow(row)

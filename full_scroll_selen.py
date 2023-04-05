@@ -17,14 +17,13 @@ URL = f'https://www.nbcomputers.ru/catalog/noutbuki'
 driver.get(URL)
 driver.implicitly_wait(5)
 footer = driver.find_element(By.CSS_SELECTOR, ".jbrSyR")
-res_name_price_id = []
-# def parse(URL_page):
-#     driver.get(URL)
 
 
 last_height = driver.execute_script("return document.body.scrollHeight")
 actions = ActionChains(driver)
 wait = WebDriverWait(driver, timeout=15)
+
+res_name_price_id = []
 try:
     while True:
         # Scroll down to bottom
